@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdvancedListView</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="remove_all">CLEAR ALL</string>
+    <string name="add_all">ADD ALL</string>
+
+    <string-array name="states">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>District of Columbia</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+<!--
+    case 'al':
+    state = 'Alabama';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/alabama-flag.jpg';
+    break;
+
+    case 'ak':
+    state = 'Alaska';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/alaska-flag.jpg';
+    break;
+
+    case 'az':
+    state = 'Arizona';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/arizona-flag.jpg';
+    break;
+
+    case 'ar':
+    state = 'Arkansas';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/arkansas-flag.jpg';
+    break;
+
+    case 'ca':
+    state = 'California';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/california-flag.jpg';
+    break;
+
+    case 'co':
+    state = 'Colorado';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/colorado-flag.jpg';
+    break;
+
+    case 'ct':
+    state = 'Connecticut';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/connecticut-flag.jpg';
+    break;
+
+    case 'de':
+    state = 'Delaware';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/delaware-flag.jpg';
+    break;
+
+    case 'dc':
+    state = 'District of Columbia';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/district-of-columbia-flag.jpg';
+    break;
+
+    case 'fl':
+    state = 'Florida';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/florida-flag.jpg';
+    break;
+
+    case 'ga':
+    state = 'Georgia';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/georgia-flag.jpg';
+    break;
+
+    case 'hi':
+    state = 'Hawaii';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/hawaii-flag.jpg';
+    break;
+
+    case 'id':
+    state = 'Idaho';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/idaho-flag.jpg';
+    break;
+
+    case 'il':
+    state = 'Illinois';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/illinois-flag.jpg';
+    break;
+
+    case 'in':
+    state = 'Indiana';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/indiana-flag.jpg';
+    break;
+
+    case 'ia':
+    state = 'Iowa';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/iowa-flag.jpg';
+    break;
+
+    case 'ks':
+    state = 'Kansas';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/kansas-flag.jpg';
+    break;
+
+    case 'ky':
+    state = 'Kentucky';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/kentucky-flag.jpg';
+    break;
+
+    case 'la':
+    state = 'Louisiana';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/louisiana-flag.jpg';
+    break;
+
+    case 'me':
+    state = 'Maine';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/maine-flag.jpg';
+    break;
+
+    case 'md':
+    state = 'Maryland';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/maryland-flag.jpg';
+    break;
+
+    case 'ma':
+    state = 'Massachusetts';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/massachusetts-flag.jpg';
+    break;
+
+    case 'mi':
+    state = 'Michigan';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/michigan-flag.jpg';
+    break;
+
+    case 'mn':
+    state = 'Minnesota';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/minnesota-flag.jpg';
+    break;
+
+    case 'ms':
+    state = 'Mississippi';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/mississippi-flag.jpg';
+    break;
+
+    case 'mo':
+    state = 'Missouri';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/missouri-flag.jpg';
+    break;
+
+    case 'mt':
+    state = 'Montana';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/montana-flag.jpg';
+    break;
+
+    case 'ne':
+    state = 'Nebraska';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/nebraska-flag.jpg';
+    break;
+
+    case 'nv':
+    state = 'Nevada';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/nevada-flag.jpg';
+    break;
+
+    case 'nh':
+    state = 'New Hampshire';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/new-hampshire-flag.jpg';
+    break;
+
+    case 'nj':
+    state ='New Jersey';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/new-jersey-flag.jpg';
+    break;
+
+    case 'nm':
+    state = 'New Mexico';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/new-mexico-flag.jpg';
+    break;
+
+    case 'ny':
+    state = 'New York';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/new-york-flag.jpg';
+    break;
+
+    case 'nc':
+    state = 'North Carolina';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/north-carolina-flag.jpg';
+    break;
+
+    case 'nd':
+    state = 'North Dakota';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/north-dakota-flag.jpg';
+    break;
+
+    case 'oh':
+    state = 'Ohio';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/ohio-flag.jpg';
+    break;
+
+    case 'ok':
+    state = 'Oklahoma';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/oklahoma-flag.jpg';
+    break;
+
+    case 'or':
+    state = 'Oregon';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/oregon-flag.jpg';
+    break;
+
+    case 'pa':
+    state = 'Pennsylvania';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/pennsylvania-flag.jpg';
+    break;
+
+    case 'ri':
+    state = 'Rhode Island';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/rhode-island-flag.jpg';
+    break;
+
+    case 'sc':
+    state = 'South Carolina';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/south-carolina-flag.jpg';
+    break;
+
+    case 'sd':
+    state = 'South Dakota';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/south-dakota-flag.jpg';
+    break;
+
+    case 'tn':
+    state = 'Tennessee';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/tennessee-flag.jpg';
+    break;
+
+    case 'tx':
+    state = 'Texas';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/texas-flag.jpg';
+    break;
+
+    case 'ut':
+    state = 'Utah';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/utah-flag.jpg';
+    break;
+
+    case 'vt':
+    state = 'Vermont';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/vermont-flag.jpg';
+    break;
+
+    case 'va':
+    state = 'Virginia';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/virginia-flag.jpg';
+    break;
+
+    case 'wa':
+    state = 'Washington';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/washington-flag.jpg';
+    break;
+
+    case 'wv':
+    state = 'West Virginia';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/west-virginia-flag.jpg';
+    break;
+
+    case 'wi':
+    state = 'Wisconsin';
+    state_flag = 'http://www.ederflag.com/media/k2/galleries/229/wisconsin-flag.jpg';
+    break;
+
+    case 'wy':
+    state = 'Wyoming';-->
+
+</resources>
